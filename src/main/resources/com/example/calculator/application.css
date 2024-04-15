@@ -1,0 +1,27 @@
+/*
+* Naomi Serkez
+* April 15th, 2024
+* this is the style for the calculator
+*/
+
+GridPane{
+   -fx-background-image: url("background_image.jpg");
+     -fx-padding: 15px;
+}
+.label{
+    -fx-background-color: white;
+    -fx-opacity: 0.5;
+    -fx-font: normal bold 50px 'sans-serif';
+}
+.button{
+    -fx-background-color: white;
+    -fx-opacity: 0.5;
+    -fx-text-fill: grey;
+    -fx-padding: 6 6 6 6;
+}
+.button:hover{
+    -fx-background-color: grey;
+    -fx-opacity: 0.5;
+    -fx-text-fill: white;
+    -fx-padding: 6 6 6 6;
+}
